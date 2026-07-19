@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ज्ञानसेतु AI — आपका निजी ज्ञान साथी",
+  title: "ज्ञानसेतु — आपका निजी ज्ञान साथी",
   description: "Read, listen, understand and learn from your documents.",
 };
 

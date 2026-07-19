@@ -59,7 +59,7 @@ export default function HomePage() {
   return (
     <main className="app-shell">
       <aside className="sidebar">
-        <div className="brand"><MiniLogo /><span>ज्ञानसेतु <b>AI</b></span></div>
+        <div className="brand"><MiniLogo /><span>ज्ञानसेतु</span></div>
         <button className="upload-button" onClick={() => setUploadOpen(true)}><Plus size={18} /> नया दस्तावेज़</button>
         <nav>
           <NavItem icon={<Home size={19} />} label="होम" active={view === "library"} onClick={() => setView("library")} />
